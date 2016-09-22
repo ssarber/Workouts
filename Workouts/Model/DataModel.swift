@@ -210,7 +210,7 @@ class DataModel {
     
     let workout2 = Workout()
     workout2.userCreated = false
-    workout2.name = "Ray's Full Body Workout"
+    workout2.name = "Full Body Workout"
     workout2.restInterval = 10
     workout2.exercises = [jumpingJacks, wallSit, pushups,
       crunches, stepups, squat, highKnees,

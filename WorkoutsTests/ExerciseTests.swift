@@ -20,7 +20,7 @@
 * THE SOFTWARE.
 */
 import XCTest
-import Workouts
+@testable import Workouts
 
 class ExerciseTests: XCTestCase {
   

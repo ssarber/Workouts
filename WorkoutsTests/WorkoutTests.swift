@@ -21,7 +21,7 @@
 */
 
 import XCTest
-import Workouts
+@testable import Workouts
 
 class WorkoutTests: XCTestCase {
   

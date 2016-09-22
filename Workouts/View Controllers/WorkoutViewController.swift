@@ -37,6 +37,7 @@ class WorkoutViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    tableView.accessibilityIdentifier = "Workouts Table"
     
   }
   
