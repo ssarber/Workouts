@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39CD0517A0C5FFCB3DAC7C224A334DD46555B62D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3C97BEF2CFEDA5AA1DCAC2C0198649E86A687360" : 9223372036854775807,
+    "39CD0517A0C5FFCB3DAC7C224A334DD46555B62D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ACEB6C3D-45C6-4CBE-9A72-F41551751645",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3C97BEF2CFEDA5AA1DCAC2C0198649E86A687360" : "..",
+    "39CD0517A0C5FFCB3DAC7C224A334DD46555B62D" : "Workouts-Starter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Workouts",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Workouts.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ssarber\/Workouts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39CD0517A0C5FFCB3DAC7C224A334DD46555B62D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ssarber\/Workouts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C97BEF2CFEDA5AA1DCAC2C0198649E86A687360"
+    }
+  ]
+}
