@@ -26,28 +26,31 @@ class WorkoutsUITests: XCTestCase {
     func testFullBodyWorkout() {
         let app = XCUIApplication()
         
-        // 1
-        let tableQuery = app.descendants(matching: XCUIElementType.table)
+        // 1. Get references to all of the tables in the app.
+        let tableQuery = app.descendants(matching: XCUIElement.ElementType.table)
         
-        // 2
+        // 2. Find the Workouts table using the "Workouts Table" accessibility identifier you added earlier. After that, you simulate a tap on the cell that contains the static text "Full Body Workout".
+
         let workoutTable = tableQuery["Workouts Table"]
-        let cellQuery = workoutTable.children(matching: XCUIElementType.cell)
+        let cellQuery = workoutTable.children(matching: XCUIElement.ElementType.cell)
         
         let identifier = "Full Body Workout"
-        let workoutQuery = cellQuery.containing(XCUIElementType.staticText, identifier:identifier)
+        let workoutQuery = cellQuery.containing(XCUIElement.ElementType.staticText, identifier:identifier)
         
         let workoutCell = workoutQuery.element
         
         workoutCell.tap()
         
-        // 3 
-        let navBarQuery = app.descendants(matching: XCUIElementType.navigationBar)
+        // 3. Get the navigaiton bar
+        let navBarQuery = app.descendants(matching: XCUIElement.ElementType.navigationBar)
         
         let navBar = navBarQuery[identifier]
         
-        let buttonQuery = navBar.descendants(matching: XCUIElementType.button)
+        let buttonQuery = navBar.descendants(matching: XCUIElement.ElementType.button)
         let backButton = buttonQuery["Workouts"]
         backButton.tap()
     }
     
+    func _testExercisesTab() {
+    }
 }

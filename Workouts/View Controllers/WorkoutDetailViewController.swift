@@ -81,7 +81,7 @@ class WorkoutDetailViewController: UIViewController {
     return cell
   }
   
-  func selectButtonTapped(_ sender: AnyObject) {
+    @objc func selectButtonTapped(_ sender: AnyObject) {
     let timesPlural = (workout.workoutCount == 1) ? "time" : "times"
     
     let message = (workout.workoutCount == 0) ?
@@ -90,7 +90,7 @@ class WorkoutDetailViewController: UIViewController {
     
     let alert = UIAlertController(title: "Woo hoo! You worked out!",
       message: message,
-      preferredStyle: UIAlertControllerStyle.alert)
+      preferredStyle: UIAlertController.Style.alert)
     
     let cancelAction = UIAlertAction(title: "Cancel",
       style: .default, handler: nil)

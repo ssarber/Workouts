@@ -48,7 +48,7 @@ class ExerciseViewController: UIViewController {
   func createUserExercise() {
     let alert = UIAlertController(title: "Add New Exercise",
       message: "Add a new exercise below",
-      preferredStyle: UIAlertControllerStyle.alert)
+      preferredStyle: UIAlertController.Style.alert)
     
     let cancelAction = UIAlertAction(title: "Cancel",
       style: .default,
@@ -153,7 +153,7 @@ extension ExerciseViewController: UITableViewDataSource {
     }
   }
   
-  func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+  func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
     if editingStyle == .delete {
       dataModel.removeExerciseAtIndex((indexPath as NSIndexPath).row - 1)
       
