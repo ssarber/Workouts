@@ -29,8 +29,7 @@ class WorkoutsUITests: XCTestCase {
         // 1. Get references to all of the tables in the app.
         let tableQuery = app.descendants(matching: XCUIElement.ElementType.table)
         
-        // 2. Find the Workouts table using the "Workouts Table" accessibility identifier you added earlier. After that, you simulate a tap on the cell that contains the static text "Full Body Workout".
-
+        // 2. Find the Workouts table using the "Workouts Table" accessibility identifier. After that, you simulate a tap on the cell that contains the static text "Full Body Workout".
         let workoutTable = tableQuery["Workouts Table"]
         let cellQuery = workoutTable.children(matching: XCUIElement.ElementType.cell)
         
